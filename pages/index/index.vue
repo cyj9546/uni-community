@@ -1,11 +1,11 @@
 <template>
 	<view >
-		<!-- <span class="iconfont icon-shouye"></span> -->
-		<view class="" style="display: flex;justify-content: center;padding: 50rpx;">
+		<span class="iconfont icon-xiaoxi"></span>
+		<!-- <view class="" style="display: flex;justify-content: center;padding: 50rpx;">
 			<view class="animated" hover-class="pulse" style="border: 1rpx solid #333333;padding: 20rpx;">
 				点击
 			</view>
-		</view>
+		</view> -->
 	</view>
 </template>
 

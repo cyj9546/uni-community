@@ -3,14 +3,57 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/dynamic/dynamic",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "社区",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#1296db",
+		"backgroundColor":"#FFFFFF",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"text":"首页",
+			"iconPath":"static/tabbar/home.png",
+			"selectedIconPath":"static/tabbar/home-select.png"
+		},
+		{
+			"pagePath":"pages/dynamic/dynamic",
+			"text":"动态",
+			"iconPath":"static/tabbar/dynamic.png",
+			"selectedIconPath":"static/tabbar/dynamic-select.png"
+		},
+		{
+			"pagePath":"pages/my/my",
+			"text":"消息",
+			"iconPath":"static/tabbar/message.png",
+			"selectedIconPath":"static/tabbar/message-select.png"
+		},
+		{
+			"pagePath":"pages/my/my",
+			"text":"我的",
+			"iconPath":"static/tabbar/my.png",
+			"selectedIconPath":"static/tabbar/my-select.png"
+		}
+		]
+		
 	}
 }
